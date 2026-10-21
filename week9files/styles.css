@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+  text-align: center;
+}
+
+.title,
+.subtitle,
+.product-name {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #ac768e;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #ac768e;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbar ul li {
+  padding: 0.4rem;
+  text-align: center;
+}
+
+.navbar ul li a {
+  color: white;
+}
+
+.footer {
+  background-color: #ac768e;
+}
