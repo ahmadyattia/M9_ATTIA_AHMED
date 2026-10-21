@@ -1,5 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 
 .title {
@@ -35,6 +36,41 @@ body {
   color: white;
 }
 
+.banner-img {
+  max-width: stretch;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+.description {
+  text-align: center;
+}
+
+.menu {
+  display: grid;
+  grid-template-rows: max-content max-content max-content;
+  justify-content: center;
+}
+
+.menu article img {
+  width: 300px;
+  height: auto;
+  max-width: 100%;
+}
+
+.menu article p {
+  text-align: center;
+}
+
 .footer {
   background-color: #ac768e;
+}
+
+@media screen and (min-width: 1024px) {
+  .menu {
+    grid-template-columns: max-content max-content max-content;
+    gap: 1rem;
+  }
 }
