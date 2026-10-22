@@ -80,6 +80,17 @@ body {
 
 .footer {
   background-color: #ac768e;
+  padding: 2rem;
+}
+
+.footer ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  color: white;
+  padding: 0;
+  list-style-type: none;
 }
 
 @media screen and (min-width: 1024px) {
