@@ -25,12 +25,15 @@ body {
 }
 
 .navbar ul {
-  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
   padding: 0;
+  margin: 1.5rem;
+  list-style-type: none;
 }
 
 .navbar ul li {
-  padding: 0.4rem;
   text-align: center;
 }
 
@@ -62,12 +65,14 @@ body {
   margin: 1rem;
 }
 
+/* product image */
 .menu article img {
   width: 250px;
   height: auto;
   max-width: 100%;
 }
 
+/* product name */
 .menu article p {
   text-align: center;
   font-size: 1.5rem;
@@ -82,5 +87,11 @@ body {
     grid-template-rows: max-content;
     grid-template-columns: max-content max-content max-content;
     gap: 2rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navbar ul {
+    flex-direction: row;
   }
 }
