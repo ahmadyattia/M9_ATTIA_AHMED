@@ -5,13 +5,15 @@ body {
 
 .title {
   text-align: center;
+  font-size: 3rem;
+  margin: 1rem 0;
 }
 
 .title,
 .subtitle,
 .product-name {
   font-family: "Great Vibes", cursive;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
   color: #ac768e;
 }
@@ -38,20 +40,26 @@ body {
 
 .banner-img {
   max-width: stretch;
+  margin: 0 5% 1rem 5%;
 }
 
 .subtitle {
   text-align: center;
+  font-size: 2rem;
+  margin: 1rem;
 }
 
 .description {
   text-align: center;
+  margin: 1rem;
 }
 
 .menu {
   display: grid;
   grid-template-rows: max-content max-content max-content;
+  grid-template-columns: max-content;
   justify-content: center;
+  margin: 1rem;
 }
 
 .menu article img {
@@ -62,6 +70,7 @@ body {
 
 .menu article p {
   text-align: center;
+  font-size: 1.5rem;
 }
 
 .footer {
@@ -70,6 +79,7 @@ body {
 
 @media screen and (min-width: 1024px) {
   .menu {
+    grid-template-rows: max-content;
     grid-template-columns: max-content max-content max-content;
     gap: 2rem;
   }
